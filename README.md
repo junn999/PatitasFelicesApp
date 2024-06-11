@@ -26,7 +26,7 @@ Elige el tipo de plantilla que prefieras (e.g., blank, tabs, sidemenu).
 
 # 3. Correr proyecto localmete
 Ejecuta el siguiente comando para correr el servidor del proyecto:
-##ionic serve
+## ionic serve
 
 
 
