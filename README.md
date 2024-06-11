@@ -43,6 +43,7 @@ Ejecuta el siguiente comando para correr el servidor del proyecto:
 Patitas Felices
 
 # Descripción de proyecto:
+Patitas felices es una aplicación innovadora que genera un impacto positivo en la comunidad al facilitar la búsqueda de mascotas perdidas y la adopción de animales en situación de calle, con la finalidad de contribuir a nuestra comunidad y darles una mejor calidad de vida a los animalitos. 
 
 # Herramientas y v utilizadas:
 Ionic: v7,
