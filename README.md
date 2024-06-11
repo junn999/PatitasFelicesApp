@@ -19,12 +19,15 @@ Verifica la instalación:
 # 2. Instalar framewok Angular 
 ## npm install -g @angular/cli
 
-# 2.1. Crear un Nuevo Proyecto Ionic y ejecutar
+# 3. Instalar AngularFire
+## ng add @angular/fire
+
+# 4. Crear un Nuevo Proyecto Ionic y ejecutar
 Para crear un nuevo proyecto Ionic, usa el siguiente comando:
 ## ionic start (name_proyect) tabs
 Elige el tipo de plantilla que prefieras (e.g., blank, tabs, sidemenu).
 
-# 3. Correr proyecto localmete
+# 4.1 Correr proyecto localmete
 Ejecuta el siguiente comando para correr el servidor del proyecto:
 ## ionic serve
 
@@ -44,7 +47,8 @@ Patitas Felices
 # Herramientas y v utilizadas:
 Ionic: v7,
 Node.js: v20.14.0,
-Angular: v17
+Angular: v17,
+AngularFire: v18.0.1
 
 
 
