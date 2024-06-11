@@ -1,13 +1,13 @@
 # Guía para Trabajar con Ionic
-## 1. Configuración Inicial
-## 1.1. Instalar Node.js y npm
+# 1. Configuración Inicial
+# 1.1. Instalar Node.js y npm
 Puedes descargar Node.js desde https://nodejs.org/
 
 Para instalar npm ejecuta el siguiente comando en tu terminal: 
-# npm install -g npm
+## npm install -g npm
 Verifica la instalación con los siguientes comandos:
-# node -v
-# npm -v
+## node -v
+## npm -v
 
 ## 1.2. Instalar Ionic CLI
 Instala el Ionic CLI globalmente usando npm:
