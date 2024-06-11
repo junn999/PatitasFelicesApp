@@ -25,3 +25,21 @@
 #container a {
   text-decoration: none;
 }
+
+.home-content {
+  --background: none;
+  background: url('/assets/gato_precarga.png') no-repeat center center fixed;
+  
+}
+
+.home{
+  text-align: center;
+  width: 100%;
+}
+
+.text_bienvenida{
+  color: #ffffff;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  width: 100%;
+}

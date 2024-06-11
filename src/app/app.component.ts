@@ -1,10 +1,27 @@
-import { Component } from '@angular/core';
+// app.component.ts
+import { Component, OnInit } from '@angular/core';
+import { AuthService } from './services/auth.service';
+import { EMPTY, Observable } from 'rxjs';
 
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
 })
-export class AppComponent {
-  constructor() {}
+export class AppComponent implements OnInit {
+  user$: Observable<any> = EMPTY; // Inicializar con un observable vacío
+
+  constructor(private authService: AuthService) {}
+
+  ngOnInit(): void {
+    this.user$ = this.authService.getUser();
+  }
+
+  login() {
+    this.authService.loginWithGoogle().catch(error => console.error('Login failed', error));
+  }
+
+  logout() {
+    this.authService.logout().catch(error => console.error('Logout failed', error));
+  }
 }

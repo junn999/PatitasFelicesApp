@@ -1,0 +1,51 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="titulo">
+      Reportar mascota
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div>
+    
+  <ion-item>
+    <ion-input label="Nombre" placeholder="Enter text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input label="Especie" placeholder="Enter text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input label="Color" placeholder="Enter text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input label="Raza" placeholder="Enter text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input label="Sexo" placeholder="Enter text"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-input label="Foto"></ion-input>
+  </ion-item>
+  </div>
+
+  <div class="button-container">
+    <ion-button shape="round">Enviar</ion-button>
+  </div>
+  
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button (click)="addPhotoToGallery()">
+      <ion-icon name="camera"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" *ngFor="let photo of photoService.photos; index as position">
+        <ion-img [src]="photo.webviewPath"></ion-img>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
