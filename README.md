@@ -9,24 +9,24 @@ Verifica la instalación con los siguientes comandos:
 ## node -v
 ## npm -v
 
-## 1.2. Instalar Ionic CLI
+# 1.2. Instalar Ionic CLI
 Instala el Ionic CLI globalmente usando npm:
-# npm install -g @ionic/cli
+## npm install -g @ionic/cli
 
 Verifica la instalación:
-# ionic –versión
+## ionic –versión
 
-## 2. Instalar framewok Angular 
-# npm install -g @angular/cli
+# 2. Instalar framewok Angular 
+## npm install -g @angular/cli
 
-## 2.1. Crear un Nuevo Proyecto Ionic y ejecutar
+# 2.1. Crear un Nuevo Proyecto Ionic y ejecutar
 Para crear un nuevo proyecto Ionic, usa el siguiente comando:
-# ionic start (name_proyect) tabs
+## ionic start (name_proyect) tabs
 Elige el tipo de plantilla que prefieras (e.g., blank, tabs, sidemenu).
 
-## 3. Correr proyecto localmete
+# 3. Correr proyecto localmete
 Ejecuta el siguiente comando para correr el servidor del proyecto:
-ionic serve
+##ionic serve
 
 
 
