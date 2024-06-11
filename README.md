@@ -33,8 +33,8 @@ Ejecuta el siguiente comando para correr el servidor del proyecto:
 
 
 # INTEGRANTES DEL PROYECTO:
-### Mariana Herrera Márquez 
-### Junior Josué Gaitán Alberto 
+## Mariana Herrera Márquez 
+## Junior Josué Gaitán Alberto 
 
 # Nombre del proyecto:
 Patitas Felices
@@ -42,8 +42,8 @@ Patitas Felices
 # Descripción de proyecto:
 
 # Herramientas y v utilizadas:
-Ionic: v7
-Node.js: v20.14.0
+Ionic: v7,
+Node.js: v20.14.0,
 Angular: v17
 
 
