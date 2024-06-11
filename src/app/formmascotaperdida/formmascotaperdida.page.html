@@ -9,36 +9,34 @@
 <ion-content [fullscreen]="true">
 
   <div>
-    
-  <ion-item>
-    <ion-input label="Nombre" placeholder="Enter text"></ion-input>
-  </ion-item>
-  <ion-item>
-    <ion-input label="Especie" placeholder="Enter text"></ion-input>
-  </ion-item>
-  <ion-item>
-    <ion-input label="Color" placeholder="Enter text"></ion-input>
-  </ion-item>
-  <ion-item>
-    <ion-input label="Raza" placeholder="Enter text"></ion-input>
-  </ion-item>
-  <ion-item>
-    <ion-input label="Sexo" placeholder="Enter text"></ion-input>
-  </ion-item>
-  <ion-item>
-    <ion-input label="Foto"></ion-input>
-  </ion-item>
+    <ion-item>
+      <ion-input label="Nombre"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Especie"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Color"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Raza"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Sexo"></ion-input>
+    </ion-item>
   </div>
 
-  <div class="button-container">
-    <ion-button shape="round">Enviar</ion-button>
+  <div>
+    <p>Insertar foto</p>
   </div>
   
-  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
-    <ion-fab-button (click)="addPhotoToGallery()">
-      <ion-icon name="camera"></ion-icon>
-    </ion-fab-button>
-  </ion-fab>
+  <div class="camera-button-container">
+    <ion-fab slot="fixed">
+      <ion-fab-button (click)="addPhotoToGallery()">
+        <ion-icon name="camera"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+  </div>
 
   <ion-grid>
     <ion-row>
@@ -47,5 +45,9 @@
       </ion-col>
     </ion-row>
   </ion-grid>
+
+  <div class="button-container">
+    <ion-button shape="round">Enviar</ion-button>
+  </div>
 
 </ion-content>
