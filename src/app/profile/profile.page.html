@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="perfil">Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div *ngIf="user$ | async as user; else showLogin">
+    <p>Bienvenido, {{ user.displayName }}</p>
+  </div>
+
+  <div>
+    <ion-button shape="round" (click)="logout()">Logout</ion-button>
+  </div>
+
+  <ng-template #showLogin>
+    <p>Por favor, inicia sesión.</p>
+  </ng-template>
+
+</ion-content>

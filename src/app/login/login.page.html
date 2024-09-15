@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div *ngIf="!isLoading">
+    <h1>Bienvenido a Patitas Felices</h1>
+
+    <ion-button shape="round" (click)="login()">Login with Google</ion-button>
+
+    <ng-template #showLogin>
+      <p>Por favor, inicia sesión.</p>
+    </ng-template>
+  </div>
+
+  <div *ngIf="isLoading" class="loading-screen">
+    <img src="assets/gato_precarga.png" alt="Loading Image">
+  </div>
+
+  <div *ngIf="!isLoading">
+    <strong>No tienes una cuenta?</strong>
+    <p><a routerLink="/register">Registrarse</a></p>
+  </div>
+
+</ion-content>
+

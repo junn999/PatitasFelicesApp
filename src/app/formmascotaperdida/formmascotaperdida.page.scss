@@ -1,0 +1,31 @@
+/* login.page.scss */
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  padding: 800px;
+  height: 100%;
+}
+
+.loading-screen img {
+  width: 500px; /* Ajusta el tamaño de la imagen según tus necesidades */
+  align-content: center;
+}
+
+.titulo {
+  text-align: center;
+  width: 100%; /* Asegura que el título ocupe todo el ancho disponible */
+}
+
+.camera-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 2px 0; /* Ajusta el margen según sea necesario */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px; /* Espacio entre los campos de entrada y el botón */
+  margin-bottom: 40px; /* Espacio para mantener el botón en la parte inferior */
+}
