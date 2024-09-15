@@ -1,7 +1,0 @@
-{
-  "name": "PatitasFelicesApp",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
